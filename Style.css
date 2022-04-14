@@ -1,0 +1,107 @@
+body {
+    background-image: url("C:/Users/kaela/Pictures/chalkboard.jpg");
+    color: #f5dfbb;
+    margin: 0;
+}
+.anime-images {
+    height: 80%;
+    width: 200px;
+}
+#anime-title-link {
+    height: 10%;
+    margin: 20px 0 0 0;
+}
+.main_page {
+    text-align: center;
+}
+.anime_section {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 100px;
+}
+.anime_section a {
+    color: #f5dfbb;
+    text-decoration: none;
+}
+.anime_section a:hover {
+    text-decoration: underline;
+    color: #F9EDD9;
+}
+#anime_bio {
+    width: 49.854%;
+    height: 400px;
+    max-width: 50%;
+    background-color: #4a4e69;
+    flex-wrap: wrap;
+    border-color: #fdfcdc;
+    border-width: 1px;
+    border-style: solid;
+        }
+#survey {
+    width: 100%;
+    height: 20vh;
+}
+.footer {
+    text-align: center;
+    position: relative;
+    background-color: #343a40;
+    margin-top: 170px;
+    margin-bottom: 0px;
+    width: 100%;
+    max-width: 100%;
+}
+.anime-page-head {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.anime-page-head img {
+    width: 185px;
+}
+.anime-description {
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+}
+#anime-season {
+    background-color: #4a4e69;
+    width: 99.708%;
+    height: 50%;
+    border-color: #fdfcdc;
+    border-width: 1px;
+    border-style: solid;
+    padding: 50px 0 50px 0;
+}
+#anime-season ul {
+    display: inline-block;
+}
+.nav-links {
+    background-color: #343a40;
+    display: flex;
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    justify-content: left;
+    align-items: center;
+    width: 100vw;
+}
+.nav-links a {
+    color: #f5dfbb;
+    text-decoration: none;
+    margin: auto 30px auto 30px;
+    font-weight: bold;
+}
+.nav-links a:hover {
+    text-decoration: underline;
+    color: #F9EDD9;
+}
+footer a {
+    color: #f5dfbb;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+    color: #F9EDD9;
+}
