@@ -90,18 +90,18 @@ body {
 .navbar h1{
     padding: 0 30px;
 }
-.nav-links {
+.nav-link {
     height: 80.3px;
     display: flex;
     align-items: center;
 }
-.nav-links a {
+.nav-link a {
     color: #f5dfbb;
     text-decoration: none;
     padding: 30px;
     font-weight: bold;
 }
-.nav-links a:hover {
+.nav-link a:hover {
     background-color: #F9EDD9;
     color: #343a40;
 }
