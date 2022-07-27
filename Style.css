@@ -94,8 +94,7 @@ body {
     font-weight: bold;
 }
 .nav-links a:hover {
-    text-decoration: underline;
-    color: #F9EDD9;
+    background-color: #F9EDD9;
 }
 footer a {
     color: #f5dfbb;
