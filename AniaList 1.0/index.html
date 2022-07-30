@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        AniaList
+    </title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <main class="main_page">
+        <div class="navbar">
+            <header>
+                <h1>AniaList</h1>
+            </header>
+            <nav class="nav-link">
+                <a rel="noopener noreferrer" href="Naruto.html" target="_blank">Naruto</a>
+                <a rel="noopener noreferrer" href="sao.html" target="_blank">Sao</a>
+                <a rel="noopener noreferrer" href="ylia.html" target="_blank">Ylia</a>
+                <a rel="noopener noreferrer" href="mha.html" target="_blank">Mha</a>
+            </nav>
+        </div>
+        <div class="anime_section">
+            <div id="anime_bio">
+                <h2 id="anime-title-link"> <a href="Naruto.html" target="_blank" rel="noopener noreferrer">Naruto</a>
+                </h2>
+                <img class="anime-images" src="Assets/NarutoPic.jpg" alt="NarutoPic">
+            </div>
+            <div id="anime_bio">
+                <h2 class=""> <a href="mha.html" target="_blank" rel="noopener noreferrer">My Hero Academia</a> </h2>
+                <img class="anime-images" src="Assets/MHAPic.jpg" alt="MhaPic">
+            </div>
+            <br>
+            <div id="anime_bio">
+                <h2> <a href="ylia.html" target="_blank" rel="noopener noreferrer">Your Lie in April</a></h2>
+                <img class="anime-images" src="Assets/YLIAPic.jpg" alt="YliaPic">
+            </div>
+            <div id="anime_bio">
+                <h2> <a href="sao.html" target="_blank" rel="noopener noreferrer">Sword Art Online</a></h2>
+                <img class="anime-images" src="Assets/SAOPic.jpg" alt="SAOPic">
+            </div>
+        </div>
+        <div id="survey">
+            <h2>What Was Your Favorite Anime?</h2>
+            <form action="">
+                <label for="Naruto">
+                    <input id="Naruto" type="radio" name="AnimeVote" value="naruto" required>Naruto
+                </label>
+                <br>
+                <label for="mha">
+                    <input id="mha" type="radio" name="AnimeVote" value="my_hero_academia" required>My Hero Academia
+                </label>
+                <br>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <br>
+        <br>
+    </main>
+    <footer class="footer">
+        <h3>Don't See Your Favorite Anime?</h3>
+        <p>
+            Submit yours here:
+        </p>
+        <form action="">
+            <input type="text" placeholder="Your Anime" required>
+            <button type="button">Submit</button>
+        </form>
+        <br>
+        <br>
+        <a href="#top">Back to top</a>
+    </footer>
+</body>
+
+</html>
